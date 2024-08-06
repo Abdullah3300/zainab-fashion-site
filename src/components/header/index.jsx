@@ -28,7 +28,7 @@ const Header = () => {
       //   isScrolled ? "bg-[#333333] bg-opacity-90" : "bg-[#F2F2F2] bg-opacity-10"
       // } backdrop-filter backdrop-blur-lg shadow-md`}
       className={` w-full z-10 transition-all duration-300"
-       backdrop-filter backdrop-blur-lg shadow-md border-b border-white`}
+        shadow-md`}
     >
       <nav
         aria-label="Global"
@@ -38,9 +38,9 @@ const Header = () => {
         <div className="flex">
           <img
             alt=""
-            src="/logo.png"
+            src="/logo2.png"
             className="h-10"
-            style={{ filter: "brightness(0) invert(1)" }} // convert image to white
+            // style={{ filter: "brightness(0) invert(1)" }} // convert image to white
           />
         </div>
         {/* =============== Hamburger Icon ================== */}
@@ -89,9 +89,9 @@ const Header = () => {
             <div>
               <img
                 alt=""
-                src="/logo.png"
-                className="h-9"
-                style={{ filter: "brightness(0) invert(1)" }} // convert image to white
+                src="/logo2.png"
+                className="h-10"
+                // style={{ filter: "brightness(0) invert(1)" }} // convert image to white
               />
             </div>
             <button
