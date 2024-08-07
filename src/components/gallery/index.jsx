@@ -4,7 +4,7 @@ const Gallery = () => {
   return (
     <div className="bg-[#0B0201] p-5 md:p-12 md:pb-20 text-white " id="gallery">
       <div className="grid md:grid-cols-2 shadow-xl shadow-red-700">
-        <div className="filter brightness-50 rounded-tr-xl rounded-br-xl">
+        <div className="filter brightness-50 hidden md:block rounded-tr-xl rounded-br-xl">
           <img
             src="/img2.jpg"
             alt=""
@@ -26,7 +26,7 @@ const Gallery = () => {
               className="rounded-md w-[100%] h-[100%]"
             />
           </div>
-          <div className="">
+          <div className="hidden md:block">
             <img
               src="/img6.jfif"
               alt=""

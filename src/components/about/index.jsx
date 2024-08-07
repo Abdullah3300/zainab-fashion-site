@@ -9,7 +9,7 @@ const About = () => {
       <div className="grid md:grid-cols-2 shadow-xl shadow-red-700">
         <div className="filter brightness-50 rounded-tr-xl rounded-br-xl block md:hidden">
           <img
-            src="/img1.jpg"
+            src="/img6.jfif"
             alt=""
             className="rounded-tr-xl rounded-br-xl w-[100%] h-[100%]"
           />
