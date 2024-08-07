@@ -27,8 +27,8 @@ const Header = () => {
       // className={` w-full z-10 transition-all duration-300 ${
       //   isScrolled ? "bg-[#333333] bg-opacity-90" : "bg-[#F2F2F2] bg-opacity-10"
       // } backdrop-filter backdrop-blur-lg shadow-md`}
-      className={` w-full z-10 transition-all duration-300"
-        shadow-md`}
+      className={` w-full z-10 transition-all backdrop-filter backdrop-blur-sm duration-300"
+        shadow-2xl`}
     >
       <nav
         aria-label="Global"
@@ -84,7 +84,7 @@ const Header = () => {
         className="md:hidden"
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#290606] px-4 py-5">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#230D01] px-4 py-5">
           <div className="flex items-center justify-between">
             <div>
               <img

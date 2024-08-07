@@ -11,7 +11,7 @@ const About = () => {
           <img
             src="/img1.jpg"
             alt=""
-            className="rounded-tr-xl rounded-br-xl h-[100%]"
+            className="rounded-tr-xl rounded-br-xl w-[100%] h-[100%]"
           />
         </div>
         <div className="rounded-xl md:rounded-tr-none md:rounded-br-none shadow-2xl p-6 px-10 ">
