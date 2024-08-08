@@ -40,3 +40,12 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #888 #f1f1f1;
 }
+
+@font-face {
+  font-family: "BlackBorneo";
+  src: url("./assets/BlackBorneo.otf") format("opentype");
+}
+
+.BlackBorneo {
+  font-family: "BlackBorneo", sans-serif;
+}
