@@ -19,6 +19,16 @@
   background-repeat: no-repeat;
   font-family: Montserrat, sans-serif;
 }
+.other-section {
+  background-image: url("../src/assets/banner1.avif");
+  background-position: 50% 50%;
+  object-fit: cover;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  font-family: Montserrat, sans-serif;
+}
 
 /* Chrome, Edge, and Safari */
 ::-webkit-scrollbar {

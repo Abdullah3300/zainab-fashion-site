@@ -2,7 +2,7 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="bg-[#0B0201] p-5 md:p-12 md:pb-20 text-white " id="gallery">
+    <div className="bg-[#0B0201] p-5 md:p-12 md:pb-20 text-white" id="gallery">
       <div className="grid md:grid-cols-2 shadow-xl shadow-red-700">
         <div className="filter brightness-50 hidden md:block rounded-tr-xl rounded-br-xl">
           <img

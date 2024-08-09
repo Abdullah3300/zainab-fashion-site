@@ -4,6 +4,8 @@ import About from "./components/about";
 import Footer from "./components/footer";
 import Gallery from "./components/gallery";
 import Home from "./components/home";
+import Boards from "./components/boards";
+import Illustrations from "./components/illustrations";
 // import ResearchDetails from "./components/researchDetails";
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         </p>
       </div>
       <Gallery />
+      <Boards />
+      <Illustrations />
       {/* <ResearchDetails /> */}
       <Footer />
     </div>
