@@ -6,6 +6,8 @@ import Gallery from "./components/gallery";
 import Home from "./components/home";
 import Boards from "./components/boards";
 import Illustrations from "./components/illustrations";
+import Drapings from "./components/drapings";
+import Shoot from "./components/shoot";
 // import ResearchDetails from "./components/researchDetails";
 
 function App() {
@@ -37,7 +39,8 @@ function App() {
       <Gallery />
       <Boards />
       <Illustrations />
-      {/* <ResearchDetails /> */}
+      <Drapings />
+      <Shoot />
       <Footer />
     </div>
   );

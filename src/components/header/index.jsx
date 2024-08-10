@@ -98,6 +98,13 @@ const Header = () => {
                       >
                         <p>DRAPINGS</p>
                       </a>
+                      <a
+                        href="#shoot"
+                        onClick={() => setDesktopMenuOpen(false)}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-red-200"
+                      >
+                        <p>SHOOT</p>
+                      </a>
                     </div>
                   </PopoverPanel>
                 )}
@@ -173,12 +180,20 @@ const Header = () => {
                       >
                         <p>ILLUSTRATIONS</p>
                       </a>
-                      <div
+                      <a
+                        href="#drapings"
                         onClick={() => setMobileMenuOpen(false)}
                         className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-red-200"
                       >
                         <p>DRAPINGS</p>
-                      </div>
+                      </a>
+                      <a
+                        href="#shoot"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-red-200"
+                      >
+                        <p>SHOOT</p>
+                      </a>
                     </DisclosurePanel>
                   </Disclosure>
                 </div>
