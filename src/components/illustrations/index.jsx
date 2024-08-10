@@ -20,10 +20,10 @@ const Illustrations = () => {
           </h3>
         </div>
         <div className="mt-7 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-          {Array.from({ length: 16 }).map((item, index) => (
+          {Array.from({ length: 30 }).map((item, index) => (
             <div className="shadow-xl shadow-red-700" key={index}>
               <img
-                src={`/projects/illustrations/i${index + 1}.png`}
+                src={`/projects/illustrations/i${index + 1}.jpg`}
                 alt=""
                 className="w-[100%] rounded-md"
               />
