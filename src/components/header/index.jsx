@@ -105,6 +105,13 @@ const Header = () => {
                       >
                         <p>SHOOT</p>
                       </a>
+                      <a
+                        href="#thesis"
+                        onClick={() => setDesktopMenuOpen(false)}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-red-200"
+                      >
+                        <p>FINAL THESIS</p>
+                      </a>
                     </div>
                   </PopoverPanel>
                 )}
@@ -193,6 +200,13 @@ const Header = () => {
                         className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-red-200"
                       >
                         <p>SHOOT</p>
+                      </a>
+                      <a
+                        href="#thesis"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="group relative flex justify-center items-center gap-x-6 rounded-lg p-1 px-2 cursor-pointer text-xs leading-6 hover:bg-red-200"
+                      >
+                        <p>FINAL THESIS</p>
                       </a>
                     </DisclosurePanel>
                   </Disclosure>
